@@ -1,0 +1,119 @@
+/* Definindo estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f7dbc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para a introdução e as seções principais */
+  main {
+    margin: 30px;
+    padding: 20px;
+    background-color: #00bff4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #003366;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  section p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.808);
+  }
+  
+  .highlight {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  .main-image {
+    width: 70%; /* Define a largura específica para imagens principais */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+  }
+  
+  .news-item img {
+    width: 50%; /* Reduz imagens nas notícias para 50% da largura */
+    height: auto; /* Mantém proporções */
+  }
+  
+  .regions ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .regions li {
+    font-size: 1.1em;
+  }
+  
+  .recent-news .news-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #00a2cf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-news img {
+    max-width: 900px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+  }
+  
+  .recent-news h3 {
+    color: #003366;
+  }
+  
+  /* Estilo para o botão de ação */
+  .call-to-action {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
